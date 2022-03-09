@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cookie&family=Fuzzy+Bubbles&family=Lobster&family=Pacifico&family=Redressed&family=Shadows+Into+Light&family=Vujahday+Script&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #114dc5;
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: 'Arial';
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form-mail {
+  width: 28rem;
+  border-radius:15px;
+  background: #114dc526;  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 20rem;
+}
+
+label {
+  font-size: 1.5rem;
+  color: #114dc5;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-size: 1rem;
+  width: 20rem;
+  background: #fff;
+  border: transparent;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+textarea {
+  border: none;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+button {
+  width: 8rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  background-color:#114dc5;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  background-color: #1e5fe0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffff;
+  border: none;
+}
