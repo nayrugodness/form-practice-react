@@ -9,6 +9,8 @@ export const Mailer = ()=> {
         emailjs.sendForm('service_l0vz16h','template_gl5bh1o',event.target,'qzGGTcQHXQfmcgyYA')
         .then(response => console.log(response))
         .catch(error => console.log(error))
+
+        alert('message sent successfully')
       }
     
       return (
@@ -22,7 +24,6 @@ export const Mailer = ()=> {
             <label>Email</label>
             <input type="email" name='user_email' />
             <hr />
-    
             <label>Message</label>
             <textarea name="user_message" id="" cols="30" rows="10"></textarea>
             <hr />
